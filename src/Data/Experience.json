@@ -1,0 +1,248 @@
+[{
+    "image":"../../assets/images/cards/currance.png",
+    "alt":"Kore 1 Contract with California Pizza Kitchen",
+    "company": "Currance, Inc.", 
+    "title": "Data Engineer", 
+    "location": "Irvine, Ca",
+    "when": "(2023 to 2024)",
+    "duties":[
+               {"text": "Build SSIS package to ingest files for Accounts, Insurance, Transactions, Inventory, Cancellation, Invoice Preview.  Built using C# and SSIS components, tables, store procedures. Clients: Tidelands, Fairview, Jennie Stuart Health"},
+               {"text": "Participate in Scrum meetings, for daily team meetings, and FTI Remediation project."},
+               {"text": "Work on Sniffer project to monitor daily SSIS failures, and file load failures. Using C# & SSIS, tables, store procedures."},
+               {"text": "Built SSIS Package to move files to staging folders."},
+               {"text": "Built SSIS Package to Archive files that were processed and move zip file to archive folder."}
+          ]
+},{
+    "image":"../../assets/images/cards/kore1.png",
+    "alt":"Kore 1 Contract with California Pizza Kitchen",
+    "company": "Kore1 | California Pizza Kitchen", 
+    "title": "Software Engineer", 
+    "location": "Costa Mesa, Ca",
+    "when": "(2021 to 2022)",
+    "duties":[
+               {"text": "Revitalized a previously-utilized web portal with classic ASP.net and VB used JavaScript and CSS to modernize the experience of the application."},
+               {"text": "Added JavaScript form validations; also created and updated stored procedures and tables"},
+               {"text": "Produced a new hire form, along with direct deposit, I-9 and both state and federal tax forms"},
+               {"text": "Updated web functions such as name changes, time entry for sick/vacation leave, store transfers, pay rate changes and job code changes using ASP.net, VB, JavaScript and SQL "}
+          ]
+},
+{
+    "image":"../../assets/images/cards/afn.png",
+    "alt":"American Financial Network Corporation",
+    "company": "American Financial Network", 
+    "title": "Software Engineer", 
+    "location": "Brea, Ca",
+    "when": "(2019 to 2021)",
+    "duties":[
+               {"text": "Worked on a secondary marketing export application using Encompass SDK as C# Windows Service, generating encompass files for investors for email review; completed this using .Net Framework 4.5"},
+               {"text": "Used SQL Server 2014 to write indexes, functions, stored procedures, tables and views"},
+               {"text": "For MBS Highway, worked with MBS APIs to import market data into SQL database, using SignalR with real time market data to transmit to client with .Net Framework 4.5, using C# and SQL Server on the backend"},
+               {"text": "With SQL Server, wrote stored procedures and functions to make an employee hierarchy at the divisional, regional and Branch Manager levels, generated using data entered into Active Directory and regenerated nightly"},
+               {"text": "Handled continuous updates for the Loan Fields  C# Windows Service"},
+               {"text": "For Orion Report Distribution, made a C# application to generate reports from Excel, using it to open templates and refreshes data saved before emailing files to the distribution list"},
+               {"text": "Completed the Idomoo Recruit Email Project, a C# Windows Service used to watch for completed files submitted to Idomoo and for FTP download"}
+          ]
+},
+{
+    "image":"../../assets/images/cards/hwave.png",
+    "alt":"H-Wave - Electronic Wave Form Labs",
+    "company": "H-Wave - Electronic Wave Form Labs", 
+    "title": "Software Engineer", 
+    "location": "Huntington Beach, Ca",
+    "when": "(2018 to 2019)",
+    "duties":[
+        {"text": "Reverse-engineered a legacy Access database to ensure stability"},
+        {"text": "Obtained logic from VBA code, moved tables and converted the logic to a SQL 2012 equivalent"},
+        {"text": "Produced tables, stored procedures, views and functions"},
+        {"text": "Created an ASP.net MVC project for screens"},
+        {"text": "Leveraged C#, jQuery, SQL Server, and Web Services to finalize all project efforts"},
+        {"text": "Launched a suite of SSRS reports for Sales Representatives and Associates "},
+        {"text": "Troubleshot and resolved concerns stemming from existing legacy Access databases"},
+        {"text": "Created code to transfer data from dBase files to CRM 365 written in C# on a scheduled task"}
+    ]
+},
+{
+    "image":"../../assets/images/cards/OangeCounty.png",
+    "alt":"County of Orange",   
+    "width":"150px",
+    "company": "County of Orange", 
+    "title": "Consultant", 
+    "location": "Santa Ana, Ca",
+    "when": "(2017 to 2018)",
+    "duties":[
+               {"text": "Worked on the Volunteer Portal C# MVC application and registration using Angular, Bootstrap and JavaScript"},
+               {"text": "Developed screens for animal registration and image uploads; also worked on the Barking Dog Complaint form, updating it and modifying code to a fillable PDF form integrated with DocuSign"},
+               {"text": "Completed the ePac Electronic Personnel Action Card application and removed web service from the application "}
+          ]
+},
+{
+    "image":"../../assets/images/cards/eri.png",
+    "alt":"Economic Research Institute",   
+    "width":"150px",
+    "company": "ERI Economic Research Institute", 
+    "title": "Software Engineer", 
+    "location": "Irvine, Ca",
+    "when": "(2015 to 2017)",
+    "duties":[
+               {"text": "Revitalized Web Assessor’s application, working per Architects’ code design"},
+               {"text": "Implemented design in assigned application modules, primarily the nonprofit comparable module; designed the backend, business and presentation layers"},
+               {"text": "Created C# unit test for code redesign; included NUnit and MS Unit testing"},
+               {"text": "Chose TFS work items from backlog, along with new bugs to repair current and add new functionalities "}
+          ]
+},
+{
+    "image":"../../assets/images/cards/killawatt.png",
+    "company": "Kilowatt Financial", 
+    "title": "Consultant", 
+    "location": "Anaheim, Ca",
+    "when": "(2015 to 2017)",
+    "duties":[
+               {"text": "Set forth CI using TeamCity for MVC, WebAPI, WCF and Windows Services; also added databases to Source Control as part of Continuous integration using Red Gate CI "},
+               {"text": "Constructed Web APIs for partners to use in coding, using WebApi Rest, C#, JavaScript, Ajax and jQuery"},
+               {"text": "Appointed as Team Lead for projects and acted as a SQL Server Administrator to lead database deployments"},
+               {"text": "Authored MS Build scripts that were integral to application development processes"}
+          ]
+},
+{
+    "image":"../../assets/images/cards/NaturesBest.png",
+    "company": "Nature’s Best", 
+    "title": "Web Developer", 
+    "location": "Brea, Ca",
+    "when": "(2011 to 2015)",
+    "duties":[
+               {"text": "Developed and maintained a website and internal applications including naturesbest.net and mycadia.com, leveraging C#, ASP.Net, jQuery, JavaScript and SQL Server Backend"},
+               {"text": "Created a mobile version of the Customer Portal using MVC4, WCF, EF5, HTML5, CCS3, jQuery and Handlebars"},
+               {"text": "Seamlessly unified the mobile site with the SwipeTrack Barcode scanning device for iOS"},
+               {"text": "Devised a service to interface with the OrderDog ordering service, Web Services, SOAP and C#"},
+               {"text": "Managed legacy Windows services for ordering, using C#, XML, SOAP and SQL Server"}
+          ]
+},
+{
+    "image": "../../assets/images/cards/abraxas.png",
+    "company": "Abraxas Medical Solutions", 
+    "title": "Software Engineer", 
+    "location": "Irvine, Ca",
+    "when": "(2008 to 2011)",
+    "duties":[
+               {"text": "Crafted a client/server fax solution with C#, WCF, and Windows Services, calling on eFax web services to add internet faxing to Abraxas EHR software"},
+               {"text": "Used Windows Services to transfer client data from the patient portal database to an internal one, using LINQ to SQL for data access and WCF for communication; also utilized this to assist with automated task and messaging"},
+               {"text": "Interfaced EHR with Sympathy Draw Imaging and OIS WinStation to import and export medical records/Images"},
+               {"text": "Fashioned a messaging and event notification module using C#, SQL and Web Services"},
+               {"text": "Adapted existing orders and billing modules to CCHIT Certification specifications"}
+          ]
+},
+{
+    "image": "../../assets/images/cards/noveraConsulting.png",
+    "company": "Novera Consulting", 
+    "title": "Contractor", 
+    "location": "Irvine, Ca",
+    "when": "(2008)",
+    "duties":[
+               {"text": "Developed data model containers and contracts to be used in WPF Kiosk System."},
+               {"text": "Created serialization and de-serialization routines to load in xml configuration files."},
+               {"text": "Created Image hotspots to dynamically draw highlights onto image located in canvas using the x and y coordinates specified in xml file."},
+               {"text": "Created animation/transition so when user clicks on hotspot the image will zoom in and enlarge into view and display information about the image."},
+               {"text": "Installed and configured IIS v6.0 on web farm 15 servers."},
+               {"text": "Configured com+ components."},
+               {"text": "Installed and configured Repliweb to perform web replication between development servers, unit test servers, staging servers, and production servers."}
+            ]
+},
+{
+    "image": "../../assets/images/cards/monarch.png",
+    "company": "Monarch HealthCare", 
+    "title": "Lead Software Developer", 
+    "location": "Irvine, Ca",
+    "when": "(2006 to 2008)",
+    "duties":[
+               {"text": "Analyse and upgrade utility applications (VB6, .NET, DTS, OLAP, and Access 2003) with new database structure and additional business rules."},
+               {"text": "Developed several ad-hoc data models using MS Business Intelligence."},
+               {"text": "Gathered requirements to better understand the work involved for new projects."},
+               {"text": "Developed complex ER utilization reports for the Pay for Performance Bonus program."},
+               {"text": "Implemented reporting services integrated with SharePoint Server."},
+               {"text": "Held and participated in design and code reviews."},
+               {"text": "Co-architected Practice Connect Plus application. (asp.net 2.0, C#)"}
+          ]
+},
+{
+    "image": "../../assets/images/cards/prospectMedical.png",
+    "company": "Prospect Medical ", 
+    "title": "Web Developer", 
+    "location": "Santa Ana, Ca",
+    "when": "(2006)",
+    "duties":[
+               {"text": "Developed an application to file referrals into IDX using Health Care Objects, C#."},
+               {"text": "Maintained Data warehouse data extracts. IDX to SQL Server scheduled extracts."},
+               {"text": "Pharmacy database development. Developed application to import data files and consolidate archived pharmacy data into SQL Server databases."},
+               {"text": "Project leader of the Internet portal (SuperNova project) development to replace Cerecons web portal."}
+          ]
+},
+{
+    "image": "../../assets/images/cards/rolandDGA.png",
+    "company": "Roland DGA, Inc.", 
+    "title": "Web Developer", 
+    "location": "Irvine, Ca",
+    "when": "(2005 to 2006)",
+    "duties":[
+               {"text": "Migrated existing asp Intranet/Extranet applications to asp.net (using vb.net and C# with a MS SQL Server backend)."},
+               {"text": "Developed role based security system for internal/external users. Complete with page level permissions and user control panel. Integrated active directory to authenticate internal users on the network."},
+               {"text": "Developed complex content management system, which allows Roland to update website, make announcements, upload files, and communicate with dealers."},
+               {"text": "Integrated Great Plains database with extranet. Created Complex stored procedures to pull order information, product inventory, price list, and account information."}
+          ]
+},
+{    
+    "image": "../../assets/images/cards/tech-army.png",
+    "company": "Tech Army", 
+    "title": "Developer", 
+    "location": "Irvine, Ca",
+    "when": "(2004 to 2006)",
+    "duties":[
+               {"text": "Responsible for the full life cycle of all client projects. Planning, Resource management (hired consultant to help out when needed), code development, Testing, QA, deployment, and maintenance."},
+               {"text": "The programming languages vary from site to site, but the most common languages are: HTML, CSS, JavaScript, C#, VB, PHP, SQL, and Action scripting."},
+               {"text": "Database development and maintenance, MS SQL Server 7, and 2000. Creating tables, triggers, stored procedures, views, indexes."},
+               {"text": "The types of websites and project vary from data driven, to static, and ecommerce applications."}
+          ]
+},
+{
+     
+    "image": "../../assets/images/cards/datacircle.png",
+    "company": "Data Circle, Inc.", 
+    "title": "Lead Developer", 
+    "location": "Irvine, Ca",
+    "when": "(2001 to 2004)",
+    "duties":[
+               {"text": "Developed authorization submission process using VB6, ASP, COM, and SQL. This project was created to automatically create authorization letters and fax them to the requested and requesting providers. The program interfaced with the Captaris Righfax server, and MS Office Word to create the letters programmatically. One year after this project was I rewrote it in vb.net and C#."},
+               {"text": "Created a member eligibility system, using C# and SQL. This program reads fixed length ASCII files and imports them into a SQL Server database. Once imported the program compares the imported data with the data that is in our production database to find and update the production database with new members, retro members, terminated members, and member’s changes. This program was originally created as a windows application with Visual Fox Pro; I was responsible for converting it to a .net web application."},
+               {"text": "Responsible for the creation of complex eligibility, claims, finance, capitation, and management reports using Crystal Reports 8.5. I used an application named re-crystallize it to web enable the reports so that users can view the reports via our intranet."},
+               {"text": "Migrated existing ASP/VB COM applications and implemented the .net architecture for each of our 17 intranet applications. I did not just port these over to .Net I did a complete rewrite so that the web applications can take advantage of the .net framework."},
+               {"text": "Created program that captured claims data and writes to an ASCII file which can be used to import the claims payable, and check registers into QuickBooks along with the vendor info and chart of accounts. VB.Net"},
+               {"text": "Managed 4 developers (technical, and administrative)."}
+          ]
+},
+{
+    "image": "../../assets/images/cards/antix.png",
+    "company": "Antix.com", 
+    "title": "Web Developer", 
+    "location": "El Segundo, Ca",
+    "when": "(1999 to 2000)",
+    "duties":[
+            {"text": "Developed content management system using ASP/VB, SQL Server7. I developed management tools to create, edit and delete articles, add pictures and schedule to have article published to the production server automatically without every needing to look at or learn HTML."},
+            {"text": "Developed a Bulk Email program to send newsletters and announcements to people that signed up to receive the newsletter, this program also looked in a mailbox for people that wanted to unsubscribe and automatically removed them from the mailing list."},
+            {"text": "Developed member profile and inventory databases in SQL Server 7, 65 tables and 200 stored procedures and views."},
+            {"text": "Developed shopping cart & and credit card processing applications."},
+            {"text": "Maintained network adding/removing users, Directory Permissions, backup, cabling."}
+          ]
+},
+{
+    "image": "../../assets/images/cards/goodwill.png",
+    "company": "Goodwill Industries", 
+    "title": "Web Developer", 
+    "location": "Santa Ana, Ca",
+    "when": "(1998 to 1999)",
+    "duties":[
+               {"text": "Designed web templates for internal use and clients"},
+               {"text": "Created data driven web sites using HTML and JavaScript"},
+               {"text": "Multimedia programming with Macromedia Director & Flash."}
+               
+          ]
+}
+]

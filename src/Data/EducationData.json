@@ -1,0 +1,8 @@
+[   
+    {"course": "Software Development Bootcamp (8 months)","school":  "California State University", "location": "Long Beach","date": "2022"},
+    {"course": "Azure Fundamentals Class", "school": "New Horizons","location": "Online","date": "2021"},
+    {"course": "Essential ASP.NET", "school": "Develop Mentor","location": "Burbank","date": "2002"},
+    {"course": "Computer Programming", "school": "Computer Learning Center ", "location": "Online","date": "1999"},
+    {"course": "Internet/Multimedia Programming", "school": "Art Institute of Orange County", "location": "San Juan Capistrano",  "date": "1998"},
+    {"course": "Computer Graphics Certificate", "school": "Walden Computer Institute",  "location": "Anahiem",  "date": "1997"}
+]

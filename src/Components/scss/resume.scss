@@ -1,0 +1,180 @@
+@use "sass:list";
+@use "sass:meta";
+@use "sass:string";
+
+@function remove-where($list, $condition) {
+    $new-list: ();
+    $separator: list.separator($list);
+    @each $element in $list {
+      @if not meta.call($condition, $element) {
+        $new-list: list.append($new-list, $element, $separator: $separator);
+      }
+    }
+    @return $new-list;
+  }
+
+$fontfamily: 'Helvetica', 'Roboto', sans-serif;
+$transparentcolor: transparent;
+
+
+@mixin flexDisplay($display: flex, $direction: row) 
+{
+    display: $display;
+    flex-direction: direction;
+}
+
+@mixin setMargin($margin: '1rem', $padding){
+    margin: $margin;
+    @if ($padding){
+        padding-left: $padding;
+    }
+}
+
+@mixin Container($display: flex, $direction: row, $width: 100%) 
+{
+    display: $display;
+    flex-direction: direction;
+    background-color: rgb(255, 255, 255, 60%);
+    width: 100%;
+}
+
+.container {
+    @function contains-helvetica($string) {
+        @return string.index($string, "Helvetica");
+      }
+      font-family: remove-where($fontfamily, meta.get-function("contains-helvetica"));
+
+    @include Container($display: flex, $direction: row, $width: 100%)     
+}
+
+.card{
+    @include flexDisplay(flex, column);
+    line-height: 1rem;
+    margin-bottom: .5rem;
+    //width: 100%;
+    background-color: $transparentcolor;
+}
+.smcontainer {
+    @include flexDisplay(flex, row);
+    width: 100%;
+}
+
+.smcard{
+    line-height: .255rem;    
+    margin-bottom: .5rem;
+    @include Container($display: flex, $direction: row, $width: 100%);
+}
+
+.cardHeader{
+    font-weight: bolder;
+}
+
+.cardBody{
+    line-height: 1.25rem;
+    margin-left: 1rem;
+}
+
+.cardText{
+    font-family: $fontfamily;
+    @include setMargin(1rem, 1rem);
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.listCols {    
+    background-color: #fff;
+    // display: flex;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    width: 800px;
+}
+
+@media (min-width: 600px)
+{
+    .listCols {    
+        // @include flexDisplay(flex, null);
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .listCols {    
+        // @include flexDisplay(flex, null);
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        width: 500px;
+    }
+}
+
+@media (min-width: 800px)
+{
+    .listCols {    
+        //@include flexDisplay(flex, null);
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        width: 700px;
+    }
+}
+
+@media (min-width: 1000px)
+{
+    .listCols {    
+        // @include flexDisplay(flex, null);
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+        width: 900px;
+    }
+}
+
+
+.work-experience-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .work-experience-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .work-experience {
+    max-height: 200px;
+    overflow-y: scroll;
+    flex-grow: 1;
+    margin-right: 20px;
+  }
+  
+  .work-experience-slider {
+    height: 200px;
+  }
+  
+  /* Hide the scrollbar */
+  .work-experience::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+  
+  .work-experience {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+@import  'experience.scss'
