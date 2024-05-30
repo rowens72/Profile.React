@@ -94,7 +94,7 @@ export const SliderPOC = ({ scrollValue, onScrollChange }) => {
           marks={marks.sort((a, b) => (a.value > b.value) ? 1 : -1)}
           getAriaValueText={valuetext}
           aria-label="Custom marks"
-          step={null}
+          // step={null}
           valueLabelDisplay="on"
           // aria-label="Restricted values"
           value={scrollValue}
