@@ -10,7 +10,7 @@ const Experience = ({ scrollValue, setScrollPositions, scrollToPosition }) => {
 
   useEffect(() => {
     if (workExperienceRef.current) {
-      const sectionElements = workExperienceRef.current.querySelectorAll('#experince');
+      const sectionElements = workExperienceRef.current.querySelectorAll('#expierence');
       const positions = Array.from(sectionElements).map(section => section.offsetTop);
       setSections(positions);
       setScrollPositions(positions);
@@ -22,16 +22,21 @@ const Experience = ({ scrollValue, setScrollPositions, scrollToPosition }) => {
       workExperienceRef.current.scrollTop = scrollToPosition;
     }
   }, [scrollToPosition, sections]);
+
+  const createDivs = (count) => {
+    return Array.from({ length: count }, (_, index) => <div id="expierence" key={index}></div>);
+  };  
  
   return (
     <section className="work-experience-section">
       <div className="work-experience" ref={workExperienceRef}>
       {data.map((exerience, index) => { 
-                return <><div id="experince">
+                return <><div >
+                  {createDivs(exerience.expierence)}
                   <Card key={index} style={{ border: '1px solid #000' }}>
                     <Card.Body id='Card'>
                       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                        <Card.Img variant="top" src={exerience.image} style={{ border: '1px solid #000' }} />
+                        <Card.Img variant="top" src={exerience.image} style={{ border: '1px solid #000', width:'200px', height: '300px' }} />
                       </div>
                       <div key={index} style={{ width: '100%', marginLeft: '1rem' }}>
                         <Card.Title style={{ paddingLeft: '.5em', lineHeight: '1em', verticalAlign: 'top', paddingBottom: '0.75rem', width: '100%', display: 'flex', backgroundColor: "rgb(3, 14, 33, 60%)", color: "#fff", height: "26px", margin: "3px" }}>
@@ -44,7 +49,7 @@ const Experience = ({ scrollValue, setScrollPositions, scrollToPosition }) => {
                       </div>
                     </Card.Body>
                   </Card>
-                </div><br /><br /><br /></>})}
+                </div></>})}
       </div>
     </section>
   );
