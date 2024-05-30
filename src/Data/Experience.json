@@ -5,6 +5,7 @@
     "title": "Data Engineer", 
     "location": "Irvine, Ca",
     "when": "(2023 to 2024)",
+    "expierence": 1,
     "duties":[
                {"text": "Build SSIS package to ingest files for Accounts, Insurance, Transactions, Inventory, Cancellation, Invoice Preview.  Built using C# and SSIS components, tables, store procedures. Clients: Tidelands, Fairview, Jennie Stuart Health"},
                {"text": "Participate in Scrum meetings, for daily team meetings, and FTI Remediation project."},
@@ -19,6 +20,7 @@
     "title": "Software Engineer", 
     "location": "Costa Mesa, Ca",
     "when": "(2021 to 2022)",
+    "expierence": 2,
     "duties":[
                {"text": "Revitalized a previously-utilized web portal with classic ASP.net and VB used JavaScript and CSS to modernize the experience of the application."},
                {"text": "Added JavaScript form validations; also created and updated stored procedures and tables"},
@@ -33,6 +35,7 @@
     "title": "Software Engineer", 
     "location": "Brea, Ca",
     "when": "(2019 to 2021)",
+    "expierence": 2,
     "duties":[
                {"text": "Worked on a secondary marketing export application using Encompass SDK as C# Windows Service, generating encompass files for investors for email review; completed this using .Net Framework 4.5"},
                {"text": "Used SQL Server 2014 to write indexes, functions, stored procedures, tables and views"},
@@ -50,6 +53,7 @@
     "title": "Software Engineer", 
     "location": "Huntington Beach, Ca",
     "when": "(2018 to 2019)",
+    "expierence": 1,
     "duties":[
         {"text": "Reverse-engineered a legacy Access database to ensure stability"},
         {"text": "Obtained logic from VBA code, moved tables and converted the logic to a SQL 2012 equivalent"},
@@ -69,6 +73,7 @@
     "title": "Consultant", 
     "location": "Santa Ana, Ca",
     "when": "(2017 to 2018)",
+    "expierence": 1,
     "duties":[
                {"text": "Worked on the Volunteer Portal C# MVC application and registration using Angular, Bootstrap and JavaScript"},
                {"text": "Developed screens for animal registration and image uploads; also worked on the Barking Dog Complaint form, updating it and modifying code to a fillable PDF form integrated with DocuSign"},
@@ -83,6 +88,7 @@
     "title": "Software Engineer", 
     "location": "Irvine, Ca",
     "when": "(2015 to 2017)",
+    "expierence": 1,
     "duties":[
                {"text": "Revitalized Web Assessor’s application, working per Architects’ code design"},
                {"text": "Implemented design in assigned application modules, primarily the nonprofit comparable module; designed the backend, business and presentation layers"},
@@ -95,7 +101,8 @@
     "company": "Kilowatt Financial", 
     "title": "Consultant", 
     "location": "Anaheim, Ca",
-    "when": "(2015 to 2017)",
+    "when": "(2015 to 2015)",
+    "expierence": 1,
     "duties":[
                {"text": "Set forth CI using TeamCity for MVC, WebAPI, WCF and Windows Services; also added databases to Source Control as part of Continuous integration using Red Gate CI "},
                {"text": "Constructed Web APIs for partners to use in coding, using WebApi Rest, C#, JavaScript, Ajax and jQuery"},
@@ -109,6 +116,7 @@
     "title": "Web Developer", 
     "location": "Brea, Ca",
     "when": "(2011 to 2015)",
+    "expierence": 4,
     "duties":[
                {"text": "Developed and maintained a website and internal applications including naturesbest.net and mycadia.com, leveraging C#, ASP.Net, jQuery, JavaScript and SQL Server Backend"},
                {"text": "Created a mobile version of the Customer Portal using MVC4, WCF, EF5, HTML5, CCS3, jQuery and Handlebars"},
@@ -123,6 +131,7 @@
     "title": "Software Engineer", 
     "location": "Irvine, Ca",
     "when": "(2008 to 2011)",
+    "expierence": 2,
     "duties":[
                {"text": "Crafted a client/server fax solution with C#, WCF, and Windows Services, calling on eFax web services to add internet faxing to Abraxas EHR software"},
                {"text": "Used Windows Services to transfer client data from the patient portal database to an internal one, using LINQ to SQL for data access and WCF for communication; also utilized this to assist with automated task and messaging"},
@@ -137,6 +146,7 @@
     "title": "Contractor", 
     "location": "Irvine, Ca",
     "when": "(2008)",
+    "expierence": 1,
     "duties":[
                {"text": "Developed data model containers and contracts to be used in WPF Kiosk System."},
                {"text": "Created serialization and de-serialization routines to load in xml configuration files."},
@@ -153,6 +163,7 @@
     "title": "Lead Software Developer", 
     "location": "Irvine, Ca",
     "when": "(2006 to 2008)",
+    "expierence": 1,
     "duties":[
                {"text": "Analyse and upgrade utility applications (VB6, .NET, DTS, OLAP, and Access 2003) with new database structure and additional business rules."},
                {"text": "Developed several ad-hoc data models using MS Business Intelligence."},
@@ -169,6 +180,7 @@
     "title": "Web Developer", 
     "location": "Santa Ana, Ca",
     "when": "(2006)",
+    "expierence": 1,
     "duties":[
                {"text": "Developed an application to file referrals into IDX using Health Care Objects, C#."},
                {"text": "Maintained Data warehouse data extracts. IDX to SQL Server scheduled extracts."},
@@ -182,6 +194,7 @@
     "title": "Web Developer", 
     "location": "Irvine, Ca",
     "when": "(2005 to 2006)",
+    "expierence": 1,
     "duties":[
                {"text": "Migrated existing asp Intranet/Extranet applications to asp.net (using vb.net and C# with a MS SQL Server backend)."},
                {"text": "Developed role based security system for internal/external users. Complete with page level permissions and user control panel. Integrated active directory to authenticate internal users on the network."},
@@ -195,6 +208,7 @@
     "title": "Developer", 
     "location": "Irvine, Ca",
     "when": "(2004 to 2006)",
+    "expierence": 1,
     "duties":[
                {"text": "Responsible for the full life cycle of all client projects. Planning, Resource management (hired consultant to help out when needed), code development, Testing, QA, deployment, and maintenance."},
                {"text": "The programming languages vary from site to site, but the most common languages are: HTML, CSS, JavaScript, C#, VB, PHP, SQL, and Action scripting."},
@@ -209,6 +223,7 @@
     "title": "Lead Developer", 
     "location": "Irvine, Ca",
     "when": "(2001 to 2004)",
+    "expierence": 3,
     "duties":[
                {"text": "Developed authorization submission process using VB6, ASP, COM, and SQL. This project was created to automatically create authorization letters and fax them to the requested and requesting providers. The program interfaced with the Captaris Righfax server, and MS Office Word to create the letters programmatically. One year after this project was I rewrote it in vb.net and C#."},
                {"text": "Created a member eligibility system, using C# and SQL. This program reads fixed length ASCII files and imports them into a SQL Server database. Once imported the program compares the imported data with the data that is in our production database to find and update the production database with new members, retro members, terminated members, and member’s changes. This program was originally created as a windows application with Visual Fox Pro; I was responsible for converting it to a .net web application."},
@@ -224,6 +239,7 @@
     "title": "Web Developer", 
     "location": "El Segundo, Ca",
     "when": "(1999 to 2000)",
+    "expierence": 2,
     "duties":[
             {"text": "Developed content management system using ASP/VB, SQL Server7. I developed management tools to create, edit and delete articles, add pictures and schedule to have article published to the production server automatically without every needing to look at or learn HTML."},
             {"text": "Developed a Bulk Email program to send newsletters and announcements to people that signed up to receive the newsletter, this program also looked in a mailbox for people that wanted to unsubscribe and automatically removed them from the mailing list."},
@@ -238,6 +254,7 @@
     "title": "Web Developer", 
     "location": "Santa Ana, Ca",
     "when": "(1998 to 1999)",
+    "expierence": 1,
     "duties":[
                {"text": "Designed web templates for internal use and clients"},
                {"text": "Created data driven web sites using HTML and JavaScript"},
