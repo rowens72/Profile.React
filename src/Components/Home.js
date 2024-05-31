@@ -31,9 +31,9 @@ function Home(){
                                 </li>
                                 <li><img src='./assets/images/sql.png'  alt='SQL' className='sqlLogo' style={techImage}/></li>
                                 <li>
-                                <img src='./assets/images/js.png'  alt='JavaScript' className='jsLogo' style={techImage}/>
+                                <img src='./assets/images/JS.png'  alt='JavaScript' className='jsLogo' style={techImage}/>
                                 </li>
-                                <li><img src='./assets/images/csharp.png'  alt='C#' className='csharpLogo' style={techImage}/></li>
+                                <li><img src='./assets/images/Csharp.png'  alt='C#' className='csharpLogo' style={techImage}/></li>
                                 <li></li>
                                 <li>
                                     <img src='./assets/images/css.png'   alt='CSS' className='cssLogo' style={techImage} />
