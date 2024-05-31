@@ -1,5 +1,5 @@
 [{
-    "image":"../../assets/images/cards/currance.png",
+    "image":"../../assets/images/cards/Currance.png",
     "alt":"Kore 1 Contract with California Pizza Kitchen",
     "company": "Currance, Inc.", 
     "title": "Data Engineer", 
@@ -97,7 +97,7 @@
           ]
 },
 {
-    "image":"../../assets/images/cards/killawatt.png",
+    "image":"../../assets/images/cards/Killawatt.png",
     "company": "Kilowatt Financial", 
     "title": "Consultant", 
     "location": "Anaheim, Ca",
@@ -189,7 +189,7 @@
           ]
 },
 {
-    "image": "../../assets/images/cards/rolandDGA.png",
+    "image": "../../assets/images/cards/RolandDGA.png",
     "company": "Roland DGA, Inc.", 
     "title": "Web Developer", 
     "location": "Irvine, Ca",
@@ -249,7 +249,7 @@
           ]
 },
 {
-    "image": "../../assets/images/cards/goodwill.png",
+    "image": "../../assets/images/cards/Goodwill.png",
     "company": "Goodwill Industries", 
     "title": "Web Developer", 
     "location": "Santa Ana, Ca",
