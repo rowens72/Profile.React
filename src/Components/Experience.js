@@ -1,7 +1,8 @@
 import React, {useState, useRef, useEffect} from 'react';
-import {Card, Img} from 'react-bootstrap'
-import './Resume.css';
-import ExperienceData from '../Data/Experience.json'
+import {Card} from 'react-bootstrap'
+import "./scss/resume.scss"; 
+import ExperienceData from '../Data/Experience.json';
+// import ImageComponent from './ImageComponent';
 
 const Experience = ({ scrollValue, setScrollPositions, scrollToPosition }) => {
   const [data, setData] = useState(ExperienceData.sort((a, b) => (a.when > b.when) ? 1 : -1))  
@@ -36,7 +37,8 @@ const Experience = ({ scrollValue, setScrollPositions, scrollToPosition }) => {
                   <Card key={index} style={{ border: '1px solid #000' }}>
                     <Card.Body id='Card'>
                       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                        <Card.Img variant="top" src={exerience.image} style={{ border: '1px solid #000', width:'200px', height: '300px' }} />
+                       8
+                        {/* <ImageComponent key={item.id} imagePath={item.imagePath} /> */}
                       </div>
                       <div key={index} style={{ width: '100%', marginLeft: '1rem' }}>
                         <Card.Title style={{ paddingLeft: '.5em', lineHeight: '1em', verticalAlign: 'top', paddingBottom: '0.75rem', width: '100%', display: 'flex', backgroundColor: "rgb(3, 14, 33, 60%)", color: "#fff", height: "26px", margin: "3px" }}>

@@ -1,5 +1,5 @@
 [{
-    "image":"../../assets/images/cards/Currance.png",
+    "image":"./assets/images/cards/Currance.png",
     "alt":"Kore 1 Contract with California Pizza Kitchen",
     "company": "Currance, Inc.", 
     "title": "Data Engineer", 
@@ -14,7 +14,7 @@
                {"text": "Built SSIS Package to Archive files that were processed and move zip file to archive folder."}
           ]
 },{
-    "image":"../../assets/images/cards/kore1.png",
+    "image":"./assets/images/cards/kore1.png",
     "alt":"Kore 1 Contract with California Pizza Kitchen",
     "company": "Kore1 | California Pizza Kitchen", 
     "title": "Software Engineer", 
@@ -29,7 +29,7 @@
           ]
 },
 {
-    "image":"../../assets/images/cards/afn.png",
+    "image":"./assets/images/cards/afn.png",
     "alt":"American Financial Network Corporation",
     "company": "American Financial Network", 
     "title": "Software Engineer", 
@@ -66,7 +66,7 @@
     ]
 },
 {
-    "image":"../../assets/images/cards/OangeCounty.png",
+    "image":"./assets/images/cards/OangeCounty.png",
     "alt":"County of Orange",   
     "width":"150px",
     "company": "County of Orange", 
@@ -81,7 +81,7 @@
           ]
 },
 {
-    "image":"../../assets/images/cards/eri.png",
+    "image":"./assets/images/cards/eri.png",
     "alt":"Economic Research Institute",   
     "width":"150px",
     "company": "ERI Economic Research Institute", 
@@ -97,7 +97,7 @@
           ]
 },
 {
-    "image":"../../assets/images/cards/Killawatt.png",
+    "image":"./assets/images/cards/Killawatt.png",
     "company": "Kilowatt Financial", 
     "title": "Consultant", 
     "location": "Anaheim, Ca",
@@ -111,7 +111,7 @@
           ]
 },
 {
-    "image":"../../assets/images/cards/NaturesBest.png",
+    "image":"/assets/images/cards/NaturesBest.png",
     "company": "Nature’s Best", 
     "title": "Web Developer", 
     "location": "Brea, Ca",
@@ -126,7 +126,7 @@
           ]
 },
 {
-    "image": "../../assets/images/cards/abraxas.png",
+    "image": "./assets/images/cards/abraxas.png",
     "company": "Abraxas Medical Solutions", 
     "title": "Software Engineer", 
     "location": "Irvine, Ca",

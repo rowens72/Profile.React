@@ -1,9 +1,13 @@
-import React,{useState, useRef} from 'react';
+import React,{useState} from 'react';
 
-import "./Resume.css"; 
 import Experience from "./Experience"
 import Education from "./Education"
 import Slider from "./Slider"
+import "./scss/resume.scss"; 
+
+import ResumePdf from './ronowens2024.pdf';
+import ResumePdfImaage from '../assets/images/downloadImage.png'
+
 
 const skills = ['C#', 'ASP.Net', 'SQL Server',  
 'JavaScript', 'HTML', 'VB.NET', 
@@ -26,7 +30,7 @@ function Resume(){
 
      return(
         <div className="hero-white">
-            <div>
+            <div>   
                 <div className='container'>
                     <div>
                         <div className='cardHeader blockquote mb-0 card-body'>Summary</div>
@@ -82,7 +86,35 @@ function Resume(){
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>   
+                <div className='container'>
+                    <div>
+                        <div className='cardHeader blockquote mb-0 card-body'>Download resume</div>
+                            <div className='cardBody'>
+                                <div className='cardText' >
+                                    <div style={{backgroundColor: 'RGB(255, 255, 255, 60%)', width: '100%'}}>
+                                    <div style={{ display:'flex'}}>
+                                        <div>
+                                            <div style={{paddingtop:'5px'}}><a href={ResumePdf}
+                                            download="Ron Owens 2024.pdf"
+                                            target="_blank"
+                                            rel="noreferrer">Ron Owens 2024.pdf</a>
+                                            </div>
+                                            <div>Updated date: 5/8/2024</div>
+                                        </div>
+                                        <div><a href={ResumePdf}
+                                            download="Ron Owens 2024.pdf"
+                                            target="_blank"
+                                            rel="noreferrer">
+                                                <img src={ResumePdfImaage} alt='Download Resume (PDF)' width='40' style={{textAlign: 'left', marginLeft: '25px'}} /> 
+                                            </a>
+                                        </div>
+                                    </div>                                    
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>             
             </div>
         </div>
     )

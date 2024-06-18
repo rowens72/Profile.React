@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Resume from "./Resume";
+import Contact from "./Contact";
 import * as Icon from 'react-bootstrap-icons';
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
         data-toggle="collapse"
         data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown"
-        aria-expanded="false"
+        aria-expanded="true"
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>
@@ -42,29 +43,10 @@ const Navbar = () => {
               Resume
             </Link>
           </li>
-          {/* <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              
-            >
-              Contact me
-            </a>
-            <div
-              className="dropdown-menu"
-              aria-labelledby="navbarDropdownMenuLink">
-             <a className="dropdown-item" href="#">
-                Email Form
-              </a>
-              <a className="dropdown-item" href="#">
-                GitHub
-              </a>
-              <a className="dropdown-item" href="#">
-                LinkedIn 
-              </a>
-            </div>
+          {/* <li  className="nav-item">
+            <link className="nav-link" to="/Contact">
+              Contact
+            </link>
           </li> */}
         </ul>
       </div>
@@ -73,6 +55,7 @@ const Navbar = () => {
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/Resume" element={<Resume />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
     </Routes>
     </Router>
     </>

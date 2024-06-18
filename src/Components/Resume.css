@@ -247,7 +247,8 @@ li p {
 
 .work-experience {
   max-height: 351px;
-  /* overflow-y: scroll; */
+  min-width: 800px;
+  overflow-y: scroll;
   flex-grow: 1;
   margin-right: 20px;
 }

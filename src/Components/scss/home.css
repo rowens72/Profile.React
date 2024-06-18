@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -26,12 +27,12 @@
 
 .hero {
   /*height: 94vh;*/
-  Background: url("../../public/assets/images/homepageBackground.png") no-repeat left center/cover;
+  Background: url("./assets/images/homepageBackground.png") no-repeat left center/cover;
 }
 
 .hero-white {
   /*height: 94vh;*/
-  Background: url("../../public/assets/images/homepageBackground_white.png") no-repeat left center/cover fixed;
+  Background: url("./assets/images/homepageBackground_white.png") no-repeat left center/cover fixed;
 }
 
 .reactLogo {

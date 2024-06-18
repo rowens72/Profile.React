@@ -84,7 +84,7 @@ export const SliderPOC = ({ scrollValue, onScrollChange }) => {
   };
 
   return (
-    <div style={{textAlign: 'center', backgroundColor: 'rgba(255,255,255, 60%)', width: '100%'}}>
+    <div style={{textAlign: 'center', backgroundColor: 'rgba(255,255,255, 60%)', width: '100%'}} className="slider">
       <Box display="flex" flexDirection="column" m={5}>
         <Slider 
           min={1998}

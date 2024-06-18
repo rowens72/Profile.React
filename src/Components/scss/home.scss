@@ -2,11 +2,13 @@
 
 $pageMargin: 0px;
 
-*{
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-}
 
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
 
 @keyframes rotation {
   from {
@@ -16,168 +18,181 @@ $pageMargin: 0px;
     transform: rotate(359deg);
   }
 }
-
-@mixin flexDisplay($display: flex, $flexdirection: row){
-    display: $display;
-    flex-direction: $flexdirection;
-}
-
-.reactDiv .htmlDiv .jsDiv .reactDiv .nodeDiv{
-  @include flexDisplay;
+.reactDiv .htmlDiv .jsDiv .reactDiv .nodeDiv {
+  display: flex;
+  flex-direction: row;
   padding: 2rem;
   margin-left: 10rem;
 }
 
-@mixin animations($animationDelay, $animation){
-    animation-delay: $animationDelay;
-    animation: $animation;
-    -webkit-animation: $animation;
-    -moz-animation: $animation;
-    -o-animation: $animation;
-    -ms-animation: $animation;
+
+.hero {
+  height: 94vh;
+  Background: url("/assets/images/homepageBackground.png") no-repeat left center/cover;
 }
 
-@mixin circles($left, $width, $height, $delay, $duration){
-    left: $left;
-    width: $width;
-    height: $height;
-    animation-delay: $delay;
-    animation-duration: $duration;
-}
-
-*{
-    margin: $pageMargin;
-    padding: $pageMargin;
-}
-
-.hero{
- /*height: 94vh;*/
-  Background: url('../../public/assets/images/homepageBackground.png') no-repeat left center/cover;
-}
-
-.hero-white{
+.hero-white {
   /*height: 94vh;*/
-  Background: url('../../public/assets/images/homepageBackground_white.png') no-repeat left center/cover fixed;
+  Background: url("/assets/images/homepageBackground_white.png") no-repeat left center/cover fixed;
 }
-
 
 .reactLogo {
-    animation: rotation 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  animation: rotation 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
-  
 
 .htmlLogo {
-    @include animations(180s, 2s);
+  animation-delay: 180s;
+  animation: 2s;
+  -webkit-animation: 2s;
+  -moz-animation: 2s;
+  -o-animation: 2s;
+  -ms-animation: 2s;
 }
 
 .jsLogo {
-    @include animations(120s, 2s);
+  animation-delay: 120s;
+  animation: 2s;
+  -webkit-animation: 2s;
+  -moz-animation: 2s;
+  -o-animation: 2s;
+  -ms-animation: 2s;
 }
+
 .cssLogo {
-    @include animations(180s, 5s);
+  animation-delay: 180s;
+  animation: 5s;
+  -webkit-animation: 5s;
+  -moz-animation: 5s;
+  -o-animation: 5s;
+  -ms-animation: 5s;
 }
 
 .nodeLogo {
-    @include animations(220s, 5s);
+  animation-delay: 220s;
+  animation: 5s;
+  -webkit-animation: 5s;
+  -moz-animation: 5s;
+  -o-animation: 5s;
+  -ms-animation: 5s;
 }
 
-.circles{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.circles li{
-    position: absolute;
-    display: block;
-    list-style: none;
-    animation: animate 25s linear infinite;
-    /* bottom: -450px; */
-    top: 1010px;   
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  animation: animate 25s linear infinite;
+  /* bottom: -450px; */
+  top: 1010px;
 }
 
-.circles li:nth-child(1){
-    @include circles(25%,30px, 30px, 2s, 9s);
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 2s;
+  animation-duration: 9s;
 }
 
-
-.circles li:nth-child(2){
-    @include circles(10%, 20px, 20px, 3s, 0s);
-    // border: 1px solid #000;
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 3s;
+  animation-duration: 0s;
 }
 
-.circles li:nth-child(3){
-    @include circles(70%, 20px, 20px, 4s, 0s);
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+  animation-duration: 0s;
 }
 
-.circles li:nth-child(4){
-    @include circles(40%, 60px, 60px, 5s, 6s);
-}
- 
-.circles li:nth-child(5){
-    @include circles(65%, 20px, 20px, 6s, 9s);
-    
-}
-
-.circles li:nth-child(6){
-    @include circles(75%, 110px, 110px, 12s, 10s);
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 5s;
+  animation-duration: 6s;
 }
 
-.circles li:nth-child(7){
-    @include circles(35%, 150px, 150px, 7s, 14s);
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 6s;
+  animation-duration: 9s;
 }
 
-.circles li:nth-child(8){
-    @include circles(50%, 25px, 25px, 16s, 45s);
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 12s;
+  animation-duration: 10s;
 }
 
-.circles li:nth-child(9){
-    @include circles(85%, 15px, 15px, 18s, 35s);
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+  animation-duration: 14s;
 }
 
-.circles li:nth-child(10){
-    @include circles(85%, 150px, 150px, 20s, 11s);
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 16s;
+  animation-duration: 45s;
 }
 
+.circles li:nth-child(9) {
+  left: 85%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 18s;
+  animation-duration: 35s;
+}
 
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 20s;
+  animation-duration: 11s;
+}
 
 @keyframes animate {
-
-    0%{
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-        border-radius: 10;
-    }
-
-    100%{
-        transform: translateY(-1000px) rotate(720deg);
-        opacity: 0;
-        border-radius: 50%;
-    }
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 10;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
 }
-
-
 @keyframes fadeIn {
-  0% {opacity:0;}
- 100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=home.css.map */

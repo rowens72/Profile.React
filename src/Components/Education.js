@@ -12,10 +12,9 @@ const Education = () => {
             <ul>
             {data.map((edu, index) => { 
                 // console.log(exerience.duties)
-                return <li>
+                return <li key={edu.date}>
                     <b>{edu.school}</b>, {edu.course}, {edu.location} ({edu.date})
                 </li>
-
                 })}
             </ul>
         </div>

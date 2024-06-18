@@ -69,6 +69,10 @@ blockquote {
     column-count: 2;
     width: 500px;
   }
+
+  .slider {    
+    display: none;  
+  } 
 }
 @media (max-width: 600px) {
   .listCols {
@@ -76,6 +80,10 @@ blockquote {
     column-count: 2;
     width: 500px;
   }
+
+  .slider {    
+    display: none;  
+  } 
 }
 @media (min-width: 800px) {
   .listCols {
@@ -182,7 +190,7 @@ body {
 }
 
 .work-experience {
-  max-height: 200px;
+  max-height: 400px;
   overflow-y: scroll;
   flex-grow: 1;
   margin-right: 20px;
